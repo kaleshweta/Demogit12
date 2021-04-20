@@ -26,13 +26,16 @@ public class demogit12
 	   driver.findElement(By.xpath("//*[@id=\"gender-female\"]")).click();
 	   driver.findElement(By.xpath("//*[@id=\"FirstName\"]")).sendKeys("shweta");
 	   driver.findElement(By.xpath("//*[@id=\"LastName\"]")).sendKeys("kale");
-	   driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("kale4shweta@gmail.com");
-	   driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("shweta29");
+	   driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("kale45shweta@gmail.com");
+	  	
+	}
+	@@org.testng.annotations.Test(priority=3)
+		public void remain()
+	{
+	 driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("shweta29");
 	   driver.findElement(By.xpath("//*[@id=\"ConfirmPassword\"]")).sendKeys("shweta29");
 	   driver.findElement(By.xpath("//*[@id=\"register-button\"]")).click();
 	   System.out.println("Test");
-		
 	}
-	
 
 }
