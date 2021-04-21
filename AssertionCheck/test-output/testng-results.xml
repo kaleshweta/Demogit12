@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8213" started-at="2021-04-06T17:29:04Z" finished-at="2021-04-06T17:29:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8213" started-at="2021-04-06T17:29:04Z" finished-at="2021-04-06T17:29:12Z">
+      <class name="com.cjc.hard_Assert.MercuryTours">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:com.cjc.hard_Assert.MercuryTours@7c16905e]" name="Open_Browser" is-config="true" duration-ms="4751" started-at="2021-04-06T17:28:59Z" finished-at="2021-04-06T17:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Luanch_url()[pri:0, instance:com.cjc.hard_Assert.MercuryTours@7c16905e]" name="Luanch_url" is-config="true" duration-ms="6126" started-at="2021-04-06T17:29:04Z" finished-at="2021-04-06T17:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Luanch_url -->
+        <test-method status="PASS" signature="Maximize_browser()[pri:0, instance:com.cjc.hard_Assert.MercuryTours@7c16905e]" name="Maximize_browser" is-config="true" duration-ms="137" started-at="2021-04-06T17:29:10Z" finished-at="2021-04-06T17:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maximize_browser -->
+        <test-method status="PASS" signature="Assert_Demo(java.lang.String, java.lang.String)[pri:0, instance:com.cjc.hard_Assert.MercuryTours@7c16905e]" name="Assert_Demo" duration-ms="1910" started-at="2021-04-06T17:29:10Z" data-provider="getData" finished-at="2021-04-06T17:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shwetakale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shweta29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert_Demo -->
+      </class> <!-- com.cjc.hard_Assert.MercuryTours -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
