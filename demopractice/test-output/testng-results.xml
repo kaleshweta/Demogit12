@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32900" started-at="2021-04-02T09:54:18Z" finished-at="2021-04-02T09:54:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32900" started-at="2021-04-02T09:54:18Z" finished-at="2021-04-02T09:54:51Z">
+      <class name="demopractice.Automationpractice">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Open_Browser" is-config="true" duration-ms="8113" started-at="2021-04-02T09:54:10Z" finished-at="2021-04-02T09:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Luanch_url()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Luanch_url" is-config="true" duration-ms="7631" started-at="2021-04-02T09:54:18Z" finished-at="2021-04-02T09:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Luanch_url -->
+        <test-method status="PASS" signature="Maximize_browser()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Maximize_browser" is-config="true" duration-ms="695" started-at="2021-04-02T09:54:26Z" finished-at="2021-04-02T09:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maximize_browser -->
+        <test-method status="PASS" signature="Accept_Cookies()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Accept_Cookies" is-config="true" duration-ms="341" started-at="2021-04-02T09:54:26Z" finished-at="2021-04-02T09:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accept_Cookies -->
+        <test-method status="FAIL" signature="Test()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Test" duration-ms="23027" started-at="2021-04-02T09:54:27Z" finished-at="2021-04-02T09:54:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 29
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7CMDVD0', ip: '192.168.31.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 29
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7CMDVD0', ip: '192.168.31.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at demopractice.Automationpractice.Test(Automationpractice.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="Take_Screenshot()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Take_Screenshot" is-config="true" duration-ms="675" started-at="2021-04-02T09:54:50Z" finished-at="2021-04-02T09:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method status="PASS" signature="DeleteCookies()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="DeleteCookies" is-config="true" duration-ms="311" started-at="2021-04-02T09:54:51Z" finished-at="2021-04-02T09:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCookies -->
+        <test-method status="PASS" signature="Db_close()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="Db_close" is-config="true" duration-ms="0" started-at="2021-04-02T09:54:51Z" finished-at="2021-04-02T09:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Db_close -->
+        <test-method status="PASS" signature="close_Allwindows()[pri:0, instance:demopractice.Automationpractice@77caeb3e]" name="close_Allwindows" is-config="true" duration-ms="917" started-at="2021-04-02T09:54:51Z" finished-at="2021-04-02T09:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Allwindows -->
+      </class> <!-- demopractice.Automationpractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

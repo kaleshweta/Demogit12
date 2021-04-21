@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="demopractice.Automationpractice">
+        <methods>
+          <include name="Accept_Cookies"/>
+          <include name="DeleteCookies"/>
+          <include name="Maximize_browser"/>
+          <include name="close_Allwindows"/>
+          <include name="Open_Browser"/>
+          <include name="Test"/>
+          <include name="Luanch_url"/>
+          <include name="Db_close"/>
+          <include name="Take_Screenshot"/>
+        </methods>
+      </class> <!-- demopractice.Automationpractice -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
